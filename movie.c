@@ -20,7 +20,7 @@ int main(int argc, char* argv[]) {
     } else {
         in = fopen(argv[1], "r");
         out = fopen("out.txt", "w");
-        printf("%s\n", realpath("out.txt", outpath));
+        printf("Full output path: %s\n", realpath("out.txt", outpath));
     }
     while(!feof(in)) {  // count reservations
         char ch;

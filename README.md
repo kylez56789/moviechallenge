@@ -17,7 +17,7 @@ Objectives of this algorithm:
 **Assumptions:**
 
 1. If the requested number of seats for a group is greater than the available seats, the theater will not reserve seats for that group.
-2. The reservation numbers(R###) will be in sequential order like (R001, R002, R003...) in the input file and no reservation number will be skipped (Use 0 requested seats as a way to skip reservation). 
+2. The reservation numbers (R###) in the input file will be in sequential order like (R001, R002, R003...) and no reservation number will be skipped (Use 0 requested seats as a way to skip reservation number).
 3. The maximum number of reservations is 999 total reservations.
 4. Seats from one group must be a minimum 3 seats and one row apart from any other different group, but seats between members of the same group do not need to meet this constraint.
 
